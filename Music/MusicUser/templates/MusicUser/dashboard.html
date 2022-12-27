@@ -1,0 +1,12 @@
+{% extends 'extend.html' %}
+{% block content %}
+  <h1>Dashboard</h1>
+  <!-- displaying user details -->
+  <p>Email: {{ user.email }}</p>
+  <p>My role is: {{user.role}}</p>
+  <p>First Name: {{ user.first_name }}</p>
+  <p>Last Name: {{ user.last_name }}</p>
+  <button class="btn btn-danger" onclick="location.href='{% url 'logout' %}'">Logout</button>
+{% endblock content %}
+
+

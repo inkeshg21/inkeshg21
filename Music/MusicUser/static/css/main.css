@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+/* .navbar-nav .nav-link:hover {
+    background-color: #ccc;
+  }
+  .bg-brown {
+    background-color: #964B00;
+  } */
+/* .mynav{
+    background-color: black;
+}
+.mynav:hover {
+    box-shadow: 0 0 10px rgba(19, 86, 157, 0.5);
+} */
+/* .text:hover{
+    box-shadow: 0 0 10px rgba(19, 86, 157, 0.5);
+} */
+/* .mynav a{
+    margin-right: 30px;
+    color: black!important;
+    border-bottom: 2px solid transparent;
+} */
+/* .mynav a:hover{
+    border-bottom: 2px solid white;
+}
+.active a{
+    border-bottom: 2px solid white;
+}
+*/
+.card-shadow{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-custom {
+    background-color: #ff5500;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(183, 25, 130, 0.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+}
+.navbar-custom a{
+    margin-right: 30px;
+}
+.navbar-brand .img{
+    padding-left: 20%;
+}
+.footer{
+    background-color: #ff5500;
+}
